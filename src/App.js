@@ -12,8 +12,17 @@ import Col from "react-bootstrap/Col";
 
 const Splash = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(${splash});
+  background-color: #dfeed6;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 40px;
+  right: 0;
+  z-index: -1;
 `;
 
 const CoolContainer = styled(Container)`
